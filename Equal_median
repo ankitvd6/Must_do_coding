@@ -3,25 +3,22 @@ import java.util.Scanner;
 
 public class Equal_median 
 {
-	/*int fn()
+	 static int median()
     {
-        if(a[mid]==b[mid])
-        return count;
-        else
-        {
-           temp[]=a[mid];
+        if(a[mid]!=b[mid])
+       {
+           temp[0]=a[mid];
            a[mid]=b[mid];
-           b[mid]=temp[];
+           b[mid]=temp[0];
+           count++;
            
            Arrays.sort(a);
            Arrays.sort(b);
-           count++;
-           fn();
-            
-        }
-        
-        
-    }*/
+            median();
+       }
+       return count;
+       
+    }
 	
 	 public static void main(String args[] ) throws Exception 
 	    {
